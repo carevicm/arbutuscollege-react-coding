@@ -1,25 +1,32 @@
-import { shallow } from "enzyme";
-import React from "react";
-import CourseListRow from "./CourseListRow";
+import React from 'react';
+import { shallow } from 'enzyme';
+import CourseListRow from './CourseListRow';
 
-describe('Test CourseListRow.js', () => {
-  it('CourseListRow  renders without crashing', () => {
-    expect(shallow(<CourseListRow textFirstCell='test' />).exists());
-  });
+it('isHeader is true, renders one cell with colspan = 2', () => {
+  const wrapper = shallow(
+    <CourseListRow isHeader={true} textFirstCell="test" />,
+  );
+  expect(wrapper.find('th').prop('colSpan')).toEqual(2);
+  expect(wrapper.find('th').text()).toEqual('test');
+});
 
-  it('renders isHeader is True and render with one th', () => {
-    const wrapper = shallow(<CourseListRow isHeader={true} textFirstCell='test' />);
-    expect(wrapper.find('th')).toHaveLength(1);
-    expect(wrapper.find('th').prop('colSpan')).toEqual("2");
-  });
+it('isHeader is true, renders two cells with text inside', () => {
+  const wrapper = shallow(
+    <CourseListRow
+      isHeader={true}
+      textFirstCell="test"
+      textSecondCell="secondTest"
+    />,
+  );
+  expect(wrapper.find('th').at(0).text()).toEqual('test');
+  expect(wrapper.find('th').at(1).text()).toEqual('secondTest');
+});
 
-  it('renders isHeader is True and render with two th', () => {
-    const wrapper = shallow(<CourseListRow isHeader={true} textFirstCell='test' textSecondCell='test' />);
-    expect(wrapper.find('th')).toHaveLength(2);
-  });
-
-  it('renders isHeader is False and with two td', () => {
-    const wrapper = shallow(<CourseListRow isHeader={false} textFirstCell='test' textSecondCell='test' />);
-    expect(wrapper.find('td')).toHaveLength(2);
-  });
+it('isHeader is false, renders two cells within a tr element', () => {
+  const wrapper = shallow(
+    <CourseListRow textFirstCell="i'm first" textSecondCell="i'm second" />,
+  );
+  expect(wrapper.find('td').at(0).text()).toEqual("i'm first");
+  expect(wrapper.find('td').at(1).text()).toEqual("i'm second");
+  expect(wrapper.find('tr').length).toEqual(1);
 });

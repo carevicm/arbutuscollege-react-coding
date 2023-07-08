@@ -1,8 +1,19 @@
-.App {
-  border-bottom: 4px solid var(--principal-color);
+@import '../utils/reset.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .App-body {
-    display: flex;
-    justify-content: center;
-  }
+  min-height: 75vh;
+  padding: 50px;
+}

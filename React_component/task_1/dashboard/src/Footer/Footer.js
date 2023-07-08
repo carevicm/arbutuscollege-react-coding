@@ -1,8 +1,8 @@
-import React from "react";
-import "./Footer.css";
-import { getFullYear, getFooterCopy } from "../utils/utils";
+import React from 'react';
+import './Footer.css';
+import { getFooterCopy, getFullYear } from '../utils/utils';
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="App-footer">
       <p>
@@ -10,6 +10,6 @@ function Footer() {
       </p>
     </div>
   );
-}
+};
 
 export default Footer;
