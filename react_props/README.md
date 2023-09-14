@@ -1,4 +1,10 @@
-README
+Project badge
+100%
+React props
+ Novice
+ By: Johann Kerbrat, Engineering Manager at Uber Works
+ Weight: 1
+
 
 Resources
 Read or watch:
@@ -72,7 +78,7 @@ At this point, reloading the App should display the exact same page as the last 
 The console in your browser should not show any error or warning
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: react_props
 File: task_0/dashboard/dist/index.html, task_0/dashboard/src/App/App.js, task_0/dashboard/src/Footer/Footer.css, task_0/dashboard/src/Footer/Footer.js, task_0/dashboard/src/Footer/Footer.test.js, task_0/dashboard/src/Header/Header.css, task_0/dashboard/src/Header/Header.js, task_0/dashboard/src/Header/Header.test.js, task_0/dashboard/src/Login/Login.css, task_0/dashboard/src/Login/Login.js, task_0/dashboard/src/Login/Login.test.js
 Please review your task manually with the following checklist
@@ -80,6 +86,7 @@ File: App.test.js
 
 Only one test remains in App.test.js and it executes successfully
 
+ 
 15/15 pts
 1. Write the tests for each component
 mandatory
@@ -116,7 +123,7 @@ Test Suites: 6 passed, 6 total
 Tests: 18 passed, 18 total
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: react_props
 File: task_1/package.json, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Footer/Footer.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/App/App.test.js
 Please review your task manually with the following checklist
@@ -126,6 +133,7 @@ checks that it contains 1 Notifications component (1 point)
 checks that it contains 1 Header component (1 point)
 checks that it contains 1 Login component (1 point)
 checks that it contains 1 Footer component (1 point)
+ 
 11/11 pts
 2. Split the Notifications component
 mandatory
@@ -162,7 +170,7 @@ Test Suites: 7 passed, 7 total
 Tests: 22 passed, 22 total
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: react_props
 File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
 Please review your task manually with the following checklist
@@ -171,6 +179,7 @@ File: task_2/dashboard/src/Notifications/Notifications.test.js
 Exists and is not empty (0 points)
 Tests if 3 NotificationItem elements were rendered (1 point)
 Tests if NotificationItem renders the correct HTML for an li element (1 point)
+ 
 13/13 pts
 3. Checking the application using the React extension
 mandatory
@@ -180,12 +189,13 @@ Modify the type of the first NotificationItem to change from “default” to �
 Profile the load of the application and note which Component is the longest to render after App, take a screenshot
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: react_props
 File: task_3/change_property.png, task_3/profiler.png
 Please review your task manually with the following checklist
 task_3/profiler.png exists (0 points)
 image shows the time it takes to load the App and each component (1 points)
+ 
 2/2 pts
 4. Props types & Default props & Shapes
 mandatory
@@ -291,7 +301,7 @@ Test Suites: 5 passed, 5 total
 Tests: 24 passed, 24 total
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: react_props
 File: task_4/dashboard/src/CourseList/CourseListRow.js, task_4/dashboard/src/CourseList/CourseListRow.test.js, task_4/dashboard/src/CourseList/CourseList.js, task_4/dashboard/src/CourseList/CourseList.css, task_4/dashboard,/src/CourseLIst.test.js, task_4/dashboard/src/App/App.js, task_4/dashboard/src/App/App.test.js, task_4/dashboard/src/Notifications/NotificationItem.js, task_4/dashboard/src/Notifications/Notifications.js, task_4/dashboard/src/Notifications/Notifications.test.js
 Please review your task manually with the following checklist
@@ -302,6 +312,7 @@ has check that the menu item is being displayed when displayDrawer is false (1 p
 has check that div.Notifications is not displayed when displayDrawer is false (1 point)
 has check that the menu item is displayed when displayDrawer is true (1 point)
 has check that div.Notifications is displayed when displayDrawer is true (1 point)
+ 
 32/32 pts
 5. Shapes, Loops, and Keys
 mandatory
@@ -364,7 +375,7 @@ Test Suites: 9 passed, 9 total
 Tests: 37 passed, 37 total
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: react_props
 File: task_5/dashboard/src/CourseList/CourseShape.js, task_5/dashboard/src/CourseList/CourseList.js, task_5/dashboard/src/CourseList/CourseListRow.js, task_5/dashboard/src/App/App.js, task_5/dashboard/src/Notifications/NotificationItemShape.js, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/NotificationItem.test.js, task_5/dashboard/src/CourseList/CourseList.test.js
 Please review your task manually with the following checklist
