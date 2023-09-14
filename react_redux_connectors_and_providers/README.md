@@ -1,5 +1,5 @@
 Project badge
-99.12%
+100%
 React Redux Connectors and Providers
  Master
  By: Johann Kerbrat, Engineering Manager at Uber Works
@@ -58,6 +58,7 @@ File: task_0/dashboard/src/App/App.js
 Please review your task manually with the following checklist
 in task_0/dashboard/src/App/App.js: - imported connect from react-redux - mapStateToProps is connected to the component
 
+ 
 3/3 pts
 1. Create a small store
 mandatory
@@ -73,6 +74,7 @@ File: task_0/dashboard/src/index.js
 Please review your task manually with the following checklist
 in task_0/dashboard/src/index.js: - used JSX to create a Provider and passed the store to it - Provider encapsulates an App
 
+ 
 2/2 pts
 2. Test MapStateToProps
 mandatory
@@ -101,6 +103,7 @@ File: task_0/dashboard/src/App/App.test.js
 Please review your task manually with the following checklist
 all tests pass when you run npm test in task_0/dashboard
 
+ 
 2/2 pts
 3. Update mapStateToProps
 mandatory
@@ -116,6 +119,7 @@ File: task_1/dashboard/src/App/App.js
 Please review your task manually with the following checklist
 in task_1/dashboard/src/App/App.js, updated render function of component to use value displayDrawer coming from the props instead of the state
 
+ 
 2/2 pts
 4. Connect your actions creators
 mandatory
@@ -132,6 +136,7 @@ File: task_1/dashboard/src/App/App.js
 Please review your task manually with the following checklist
 modified render function to use the functions passed within the props instead of the action within the Class component
 
+ 
 3/3 pts
 5. Refactor your code
 mandatory
@@ -150,6 +155,7 @@ File: task_1/dashboard/src/App/App.js
 Please review your task manually with the following checklist
 defined propTypes and defaultProps
 
+ 
 4/4 pts
 6. Update your tests
 mandatory
@@ -169,6 +175,7 @@ File: task_1/dashboard/src/App/App.test.js
 Please review your task manually with the following checklist
 all tests pass when you run npm test in task_1/dashboard directory
 
+ 
 3/3 pts
 7. Async actions & Thunk middleware
 mandatory
@@ -184,6 +191,7 @@ File: task_2/dashboard/src/index.js
 Please review your task manually with the following checklist
 applied thunk middleware to store
 
+ 
 2/2 pts
 8. Connect LoginRequest to the App
 mandatory
@@ -200,6 +208,7 @@ File: task_2/dashboard/src/App/App.js
 Please review your task manually with the following checklist
 removed any login or logout functions and binds
 
+ 
 3/3 pts
 9. Connect user state to the Footer
 mandatory
@@ -217,6 +226,7 @@ File: task_2/dashboard/src/Footer/Footer.js
 Please review your task manually with the following checklist
 render function does not use Context, it uses the user prop
 
+ 
 3/3 pts
 10. Connect Logout action creator to the Header
 mandatory
@@ -235,6 +245,7 @@ File: task_2/dashboard/src/Header/Header.js
 Please review your task manually with the following checklist
 modified render function and removed any use of Context, now uses user prop, when user clicks on the link it dispatches the logout action creator
 
+ 
 3/3 pts
 11. Modify the uiReducer
 mandatory
@@ -250,6 +261,7 @@ File: task_2/dashboard/src/reducers/uiReducer.js
 Please review your task manually with the following checklist
 when action LOGOUT is passed, user is set to null
 
+ 
 2/2 pts
 12. Modify the test suites
 mandatory
@@ -278,9 +290,11 @@ File: task_2/dashboard/src/App/App.test.js, task_2/dashboard/src/Footer/Footer.t
 Please review your task manually with the following checklist
 all tests pass when you run npm test in task_2/dashboard directory
 
+ 
 13/13 pts
 13. Understand how to use the Redux Chrome extension
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Install the Redux DevTools extension on your Chrome browser:
 
 Modify the index.js to support the extension
@@ -295,8 +309,8 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: react_redux_connectors_and_providers
 File: task_3/dashboard/src/index.js
-  
-0/1 pt
+   
+1/1 pt
 14. Combine store: Root reducer
 mandatory
 Since you have more than one reducer for your application, you will need to combine them into the store.
@@ -315,6 +329,7 @@ File: task_4/dashboard/src/reducers/rootReducer.js
 Please review your task manually with the following checklist
 ui maps to uiReducer
 
+ 
 7/7 pts
 15. Combine store: modify the application
 mandatory
@@ -329,6 +344,7 @@ File: task_4/dashboard/src/index.js
 Please review your task manually with the following checklist
 Used createStore with the rootReducer
 
+ 
 1/1 pt
 16. Combine store: write the tests
 mandatory
@@ -354,6 +370,7 @@ File: task_4/dashboard/src/App/App.test.js, task_4/dashboard/src/reducers/rootRe
 Please review your task manually with the following checklist
 Executing npm test successfully runs all tests without fail
 
+ 
 4/4 pts
 17. Connect notifications: New Action Creator
 mandatory
@@ -375,6 +392,7 @@ File: task_5/dashboard/src/actions/notificationActionCreators.js
 Please review your task manually with the following checklist
 notificationActionCreators.js contains a fetchNotifications action creator that returns a dispatch setNotifications with data from the notifications.json API and sets the loading state to false
 
+ 
 7/7 pts
 18. Connect notifications: Improve reducer
 mandatory
@@ -392,6 +410,7 @@ File: task_5/dashboard/src/reducers/notificationReducer.js
 Please review your task manually with the following checklist
 The FETCH_NOTIFICATIONS_SUCCESS state uses mergeDeep
 
+ 
 3/3 pts
 19. Connect notifications to the reducer
 mandatory
@@ -408,6 +427,7 @@ File: task_5/dashboard/src/Notifications/Notifications.js
 Please review your task manually with the following checklist
 Calls fetchNotifications on componentDidMount
 
+ 
 3/3 pts
 20. Connect notifications: clean up
 mandatory
@@ -423,6 +443,7 @@ File: task_5/dashboard/src/App/App.js
 Please review your task manually with the following checklist
 Deleted getLatestNotification import
 
+ 
 4/4 pts
 21. Connect notifications: update the test suites
 mandatory
@@ -453,6 +474,7 @@ File: task_5/dashboard/src/reducers/notificationReducer.test.js, task_5/dashboar
 Please review your task manually with the following checklist
 notificationActionCreators.test.js contains a test for SET_LOADING_STATE
 
+ 
 7/7 pts
 22. Selectors
 mandatory
@@ -476,6 +498,7 @@ File: task_6/dashboard/src/Notifications/Notifications.js, task_6/dashboard/src/
 Please review your task manually with the following checklist
 all tests pass when you run npm test in the task_6/dashboard directory
 
+ 
 3/3 pts
 23. Connect courses: create a course selector
 mandatory
@@ -493,6 +516,7 @@ File: task_7/dashboard/src/selectors/courseSelector.js, task_7/dashboard/src/sel
 Please review your task manually with the following checklist
 all tests pass when you run npm test in the task_7/dashboard directory
 
+ 
 3/3 pts
 24. Connect courses: create a fetch courses function
 mandatory
@@ -510,6 +534,7 @@ File: task_7/dashboard/src/actions/courseActionCreators.js, task_7/dashboard/src
 Please review your task manually with the following checklist
 all tests pass when you run npm test in the task_7/dashboard directory
 
+ 
 3/3 pts
 25. Connect the courses component
 mandatory
@@ -549,6 +574,7 @@ File: task_7/dashboard/src/CourseList/CourseList.js, task_7/dashboard/src/Course
 Please review your task manually with the following checklist
 all tests pass when you run npm test in the task_7/dashboard directory
 
+ 
 8/8 pts
 26. Memoized selectors: Redux Reselect
 mandatory
@@ -568,6 +594,7 @@ File: task_8/dashboard/src/selectors/notificationSelector.js
 Please review your task manually with the following checklist
 in the getUnreadNotificationsByType selector: - when filter is set to default, returns all the unread notifications - when filter is set to urgent, returns all the unread and urgent notifications
 
+ 
 3/3 pts
 27. Memoized selectors: update the UI
 mandatory
@@ -584,6 +611,7 @@ File: task_8/dashboard/src/Notifications/Notifications.js
 Please review your task manually with the following checklist
 added two buttons under the text Here is the list of notifications: - first one contains !! and on click it sets the filters of notifications to URGENT - second button contains ? and on click it sets the filters of notifications to default
 
+ 
 3/3 pts
 28. Memoized selectors: update the test suite
 mandatory
@@ -609,6 +637,7 @@ File: task_8/dashboard/src/Notifications/Notifications.test.js, task_8/dashboard
 Please review your task manually with the following checklist
 all tests pass when you run npm test in the task_8/dashboard directory
 
+ 
 3/3 pts
 29. Container/Component
 mandatory
@@ -627,6 +656,3 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: react_redux_connectors_and_providers
 File: task_9/dashboard/src/Notifications/Notifications.js, task_9/dashboard/src/Notifications/Notifications.test.js, task_9/dashboard/src/Notifications/NotificationsContainer.js, task_9/dashboard/src/Notifications/NotificationsContainer.test.js
-Please review your task manually with the following checklist
-all tests pass when you run npm test in the task_9/dashboard directory
-
