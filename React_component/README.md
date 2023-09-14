@@ -1,3 +1,5 @@
+Project badge
+100%
 React component
  Novice
  By: Johann Kerbrat, Engineering Manager at Uber Works
@@ -46,11 +48,11 @@ At this point, reloading the App should display the exact same page as the last 
 The console in your browser should not show any error or warning
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_0/dashboard/src/App/App.js
-  
-2/2 pts
+   
+2/1 pt
 1. Lifecycles
 mandatory
 Score: 100.00% (Checks completed: 100.00%)
@@ -75,11 +77,11 @@ At this point, reloading the App should display the exact same page as the last 
 The console in your browser should not show any error or warning
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/App/App.test.js
-  
-3/3 pts
+   
+3/2 pts
 2. Handling Events
 mandatory
 Create a new handing event
@@ -113,12 +115,13 @@ At this point, reloading the App should display the exact same page as the last 
 The console in your browser should not show any error or warning
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
 Please review your task manually with the following checklist
 in task_2/dashboard/src/Notifications/NotificationItem.test.js, there is a test that spies on the markAsRead property and checks that the spy is called with the right ID argument when simulating a click on the component
 
+ 
 10/10 pts
 3. Reusable comments & specialization
 mandatory
@@ -144,12 +147,13 @@ Should generate:
 </div>
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_3/dashboard/src/BodySection/BodySection.js
 Please review your task manually with the following checklist
 in task_3/dashboard/src/BodySection/BodySection.js, in the div returned by BodySection function, there are children under the h2
 
+ 
 5/5 pts
 4. Specialization
 mandatory
@@ -167,7 +171,7 @@ Make sure to define the propTypes for both props
 Do not repeat each props manually and use the spread operator
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_3/dashboard/src/BodySection/BodySection.css
 Please review your task manually with the following checklist
@@ -176,6 +180,7 @@ in task_3/dashboard/src/BodySection/BodySection.css, has the following code:
 .bodySectionWithMargin {
   margin-bottom: 40px;
 }
+ 
 7/7 pts
 5. Use the new components
 mandatory
@@ -186,12 +191,13 @@ Wrap the Login component with the newly created BodySectionWithMarginBottom comp
 Using the BodySection component, add a new block with the title News from the School. The component should contain a paragraph with some random text
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_3/dashboard/src/App/App.js
 Please review your task manually with the following checklist
 in task_3/dashboard/src/App/App.js, there is a BodySection component with title set to News from the School with some random text in a paragraph
 
+ 
 8/8 pts
 6. Test the new components
 mandatory
@@ -216,12 +222,13 @@ Make sure that the CSS is correctly applied to your component
 The console in your browser should not show any error or warning
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_3/dashboard/src/BodySection/BodySection.test.js, task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js
 Please review your task manually with the following checklist
 npm test executes all tests successfully
 
+ 
 6/6 pts
 7. Create WithLogging HOC
 mandatory
@@ -235,12 +242,13 @@ Modify the displayName of the HOC to always display WithLogging(NAME_OF_THE_WRAP
 NAME_OF_THE_WRAPPED_COMPONENT should be the name of the wrapped component or class. If the wrapped element has no name it should default to Component
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_4/dashboard/src/HOC/WithLogging.js
 Please review your task manually with the following checklist
 in task_4/dashboard/src/HOC/WithLogging.js, NAME_OF_THE_WRAPPED_COMPONENT is the either the name of the wrapped component/class or Component
 
+ 
 4/4 pts
 8. Write a test for the HOC
 mandatory
@@ -258,12 +266,13 @@ In the test file, make sure to restore the console function you mocked
 The console in your browser should not show any error or warning
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_4/dashboard/src/HOC/WithLogging.test.js
 Please review your task manually with the following checklist
 all tests pass when executing npm test in the task_4/dashboard directory
 
+ 
 3/3 pts
 9. Declare a pure component
 mandatory
@@ -272,12 +281,13 @@ In task_5/dashboard/src/Notifications/NotificationItem.js:
 Modify the component to make it “pure”. Which means that it will only update when its props and state are different
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_5/dashboard/src/Notifications/NotificationItem.js
 Please review your task manually with the following checklist
 in task_5/dashboard/src/Notifications/NotificationItem.js, used React.memo on the NotificationItem component
 
+ 
 1/1 pt
 10. Make your own pure component
 mandatory
@@ -287,12 +297,13 @@ Modify the file so it only updates itself when the new property listNotification
 You must implement the function shouldComponentUpdate to add this performance optimization
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_5/dashboard/src/Notifications/Notifications.js
 Please review your task manually with the following checklist
 In task_5/dashboard/src/Notifications/Notifications.js, In shouldComponentUpdate(), student compares listNotifications.length on nextProps and this.props
 
+ 
 2/2 pts
 11. Add a test
 mandatory
@@ -310,9 +321,8 @@ Requirements:
 The console in your browser should not show any error or warning
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_component
 File: task_5/dashboard/src/Notifications/Notifications.test.js
 Please review your task manually with the following checklist
 when viewing the app in your browser, the console in your browser does not show any error or warning
-
