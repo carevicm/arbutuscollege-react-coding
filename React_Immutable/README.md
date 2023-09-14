@@ -1,4 +1,5 @@
 Project badge
+100%
 React Immutable
  Amateur
  By: Johann Kerbrat, Engineering Manager at Uber Works
@@ -37,56 +38,14 @@ $ sudo apt install nodejs
 Provided files
 babel.config.js
 Click to show/hide file contents
-
-module.exports = {
-  presets: [
-    [
-      '@babel/preset-env',
-      {
-        targets: {
-          node: 'current',
-        },
-      },
-    ],
-  ],
-};
 jsconfig.json
 Click to show/hide file contents
-
-{
-  "compilerOptions": {
-    "target": "es6"
-  },
-  "exclude": [
-    "node_modules"
-  ]
-}
 package.json
 Click to show/hide file contents
-
-{
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint",
-    "check-lint": "lint [0-9]*.js",
-    "test": "jest",
-    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "eslint": "^6.4.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.17.0",
-    "jest": "^24.9.0"
-  },
-  "dependencies": {
-    "immutable": "^4.0.0-rc.12"
-  }
-}
 Tasks
 0. Converting into an Immutable object using fromJS
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Copy the necessary config files specified in the description to the root directory of the project and execute npm install.
 
 In a file named 0-fromjs.js, create a function getImmutableObject that accepts object as a parameter and converts it into an immutable Map using fromJS of the Immutable.js library
@@ -113,13 +72,14 @@ Map {
 }
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_Immutable
 File: 0-fromjs.js
-  
-0/2 pts
+   
+2/2 pts
 1. Converting into Immutable using Map
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 In 1-map.js, modify the function getImmutableObject using Map from Immutable.js
 
 Example:
@@ -144,13 +104,14 @@ Map {
 }
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_Immutable
 File: 1-map.js
-  
-0/2 pts
+   
+2/2 pts
 2. Accessing nested elements
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Given the function below, edit it to return the value of the object at the defined path
 
 export default function accessImmutableObject(object, array) {
@@ -174,13 +135,14 @@ Requirements:
 The function should either return undefined, a string, or a Map
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_Immutable
 File: 2-nested.js
-  
-0/2 pts
+   
+2/2 pts
 3. List and push
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 In file 3-list.js, create these 2 functions:
 
 export function getListObject(array) {
@@ -192,13 +154,14 @@ addElementToList accepts two arguments: first one is a List and second one is a 
 append the string to the list and return the list
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_Immutable
 File: 3-list.js
-  
-0/2 pts
+   
+2/2 pts
 4. Chained mutations
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Create & export a constant named map. It should create an Immutable Map with the following object:
 
  {
@@ -218,13 +181,14 @@ Requirements:
 You can’t use any other variable than map and map2
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_Immutable
 File: 4-mutations.js
-  
-0/2 pts
+   
+2/2 pts
 5. Merge & concat
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Create a function named concatElements
 
 It accepts two arguments page1 and page2. Both are arrays
@@ -239,13 +203,14 @@ Requirements:
 Use list and map from the Immutable.js library
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_Immutable
 File: 5-merge.js
-  
-0/3 pts
+   
+3/3 pts
 6. Nested merge
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Create a function named mergeDeeplyElements
 
 It should accept two arguments, page1 and page2. Both are objects
@@ -297,13 +262,14 @@ Requirements
 use Map from immutable.js
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_Immutable
 File: 6-deeply.js
-  
-0/2 pts
+   
+2/2 pts
 7. Equality
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Create a function named areMapsEqual
 
 It accepts two arguments map1 and map2. Both are Immutable.js Maps
@@ -331,13 +297,14 @@ Requirements:
 Use is from the immutable.js library
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_Immutable
 File: 7-equality.js
-  
-0/2 pts
+   
+2/2 pts
 8. Lazy Seq
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Create a function named printBestStudents:
 
 It accepts one object as argument. The object is formed with the following structure:
@@ -357,6 +324,6 @@ Requirements:
 Uses seq from immutable.js
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_Immutable
 File: 8-seq.js
