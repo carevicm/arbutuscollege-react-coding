@@ -1,4 +1,11 @@
-WEBPACK
+Project badge
+100%
+Webpack
+ Novice
+ By: Johann Kerbrat, Engineering Manager at Uber Works
+ Weight: 1
+ Your score will be updated as you progress.
+
 
 Resources
 Read or watch:
@@ -22,6 +29,7 @@ A README.md file at the root of the folder of the project is mandatory
 Tasks
 0. Basic setup
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Create and run Webpack using a basic installation.
 
 Create a folder named task_0.
@@ -47,10 +55,11 @@ Repo:
 GitHub repository: arbutuscollege-react-coding
 Directory: Webpack
 File: task_0/package.json, task_0/src/index.js, task_0/dist/index.html
-  
+   
 7/7 pts
 1. Learning how to use Webpack with a config file
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Installing packages
 
 Create a folder named task_1, cd into it, and create a package.json using npm init -y
@@ -84,10 +93,11 @@ Repo:
 GitHub repository: arbutuscollege-react-coding
 Directory: Webpack
 File: task_1/js/dashboard_main.js, task_1/package.json, task_1/webpack.config.js, task_1/public/index.html
-  
+   
 9/9 pts
 2. Adding CSS & Images
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Create a specific configuration for Webpack.
 
 Using the folder named task_2.
@@ -111,10 +121,11 @@ Repo:
 GitHub repository: arbutuscollege-react-coding
 Directory: Webpack
 File: task_2/package.json, task_2/css/main.css, task_2/webpack.config.js, task_2/js/dashboard_main.js, task_2/public/index.html
-  
+   
 9/9 pts
 3. Dev servers, modules, and tree shaking
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Using the folder named task_3. Set up a development server:
 
 Reuse the code from task_2.
