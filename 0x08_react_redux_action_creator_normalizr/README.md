@@ -1,4 +1,5 @@
 Project badge
+100%
 React Redux action creator+normalizr
  Master
  By: Johann Kerbrat, Engineering Manager at Uber Works
@@ -80,12 +81,11 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: 0x08_react_redux_action_creator_normalizr
 File: task_0/dashboard/src/schema/notifications.js, task_0/dashboard/src/schema/notifications.test.js
-Checker Docker image:
-
 Please review your task manually with the following checklist
-README.md exists and is not empty
+all tests pass when running npm test in task_0/dashboard
 
-0/5 pts
+ 
+5/5 pts
 1. Normalize a nested JSON
 mandatory
 Copy over dashboard from the previous task into a task_1 directory at the root of the project
@@ -149,12 +149,11 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: 0x08_react_redux_action_creator_normalizr
 File: task_1/dashboard/src/schema/notifications.js, task_1/dashboard/src/schema/notifications.test.js
-Checker Docker image:
-
 Please review your task manually with the following checklist
-Files exist
+Tests that the normalized data has the correct notifications empty
 
-0/9 pts
+ 
+9/9 pts
 2. Filter a normalized Schema
 mandatory
 Copy the contents of dashboard from the task_1 directory into a task_2 directory at the root of the project
@@ -172,12 +171,11 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: 0x08_react_redux_action_creator_normalizr
 File: task_2/dashboard/src/schema/notifications.js
-Checker Docker image:
-
 Please review your task manually with the following checklist
-task_2/dashboard/src/schema/notifications.js exists and is not empty
+all tests pass when running npm test in the task_2/dashboard directory
 
-0/4 pts
+ 
+4/4 pts
 3. Create actions for the course list
 mandatory
 Copy the dashboard folder from the task_2 directory into a directory named task_3
@@ -206,12 +204,11 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: 0x08_react_redux_action_creator_normalizr
 File: task_3/dashboard/src/actions/courseActionCreators.js, task_3/dashboard/src/actions/courseActionCreators.test.js, task_3/dashboard/src/actions/courseActionTypes.js
-Checker Docker image:
-
 Please review your task manually with the following checklist
-task_3/dashboard/src/actions/courseActionCreators.js, task_3/dashboard/src/actions/courseActionCreators.test.js exist
+Created a test for the unSelectCourse action in task_3/dashboard/src/actions/courseActionCreators.test.js
 
-0/6 pts
+ 
+6/6 pts
 4. Create actions for the UI
 mandatory
 Copy the dashboard folder from task_3 into a directory labeled task_4
@@ -243,12 +240,11 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: 0x08_react_redux_action_creator_normalizr
 File: task_4/dashboard/src/actions/uiActionTypes.js, task_4/dashboard/src/actions/uiActionCreators.js, task_4/dashboard/src/actions/uiActionCreators.test.js
-Checker Docker image:
-
 Please review your task manually with the following checklist
-task_4/dashboard/src/actions/uiActionTypes.js, task_4/dashboard/src/actions/uiActionCreators.js, task_4/dashboard/src/actions/uiActionCreators.test.js exist and are not empty
+all tests pass when executing npm test
 
-0/12 pts
+ 
+12/12 pts
 5. Create actions for the notification list
 mandatory
 Copy dashboard from the task_4 directory into task_5
@@ -292,14 +288,11 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: 0x08_react_redux_action_creator_normalizr
 File: task_5/dashboard/src/actions/notificationActionTypes.js, task_5/dashboard/src/actions/notificationActionCreators.js, task_5/dashboard/src/actions/notificationActionCreators.test.js
-Checker Docker image:
-
 Please review your task manually with the following checklist
-task_5/dashboard/src/actions/notificationActionTypes.js task_5/dashboard/src/actions/notificationActionCreators.js task_5/dashboard/src/actions/notificationActionCreators.test.js
+Tests the setNotificationFilter action creator
 
-exist
-
-0/7 pts
+ 
+7/7 pts
 6. Bound the actions
 mandatory
 Modify the Course actions creators:
@@ -321,12 +314,11 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: 0x08_react_redux_action_creator_normalizr
 File: task_6/dashboard/src/actions/courseActionCreators.js, task_6/dashboard/src/actions/notificationActionCreators.js, task_6/dashboard/src/actions/uiActionCreators.js
-Checker Docker image:
-
 Please review your task manually with the following checklist
-task_6/dashboard/src/actions/courseActionCreators.js, task_6/dashboard/src/actions/notificationActionCreators.js, task_6/dashboard/src/actions/uiActionCreators.js exist and are not empty
+in task_6/dashboard/src/actions/uiActionCreators.js: login, logout, displayNotificationDrawer, hideNotificationDrawer action creators have been bound
 
-0/4 pts
+ 
+4/4 pts
 7. Async Action Creators
 mandatory
 Set up Redux and Redux Thunk
@@ -373,4 +365,3 @@ Repo:
 GitHub repository: arbutuscollege-web_react
 Directory: 0x08_react_redux_action_creator_normalizr
 File: task_7/dashboard/src/actions/uiActionTypes.js, task_7/dashboard/src/actions/uiActionCreators.js, task_7/dashboard/src/actions/uiActionCreators.test.js
-Checker Docker image:
