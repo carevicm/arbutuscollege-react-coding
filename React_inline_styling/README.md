@@ -1,3 +1,5 @@
+Project badge
+100%
 React inline styling
  Novice
  By: Johann Kerbrat, Engineering Manager at Uber Works
@@ -31,6 +33,7 @@ A README.md file, at the root of the folder of the project, is mandatory
 Tasks
 0. Inline styling
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Copy over the task_5 directory from the React components project (We’ll be using it as the base for this project)
 Rename the task_5 directory to task_0
 Modify the CourseListRow component in task_0/dashboard/src/CourseList/CourseListRow.js:
@@ -47,13 +50,14 @@ Requirement:
 Even if the modification is small, make sure that your test suites are still passing. Especially the file CourseListRow.test.js
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_inline_styling
 File: task_0/dashboard/src/CourseList/CourseListRow.js, task_0/dashboard/src/CourseList/CourseListRow.test.js
-  
-0/2 pts
+   
+2/2 pts
 1. install Aphrodite
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Install Aphrodite using npm with:
 
 npm install --save aphrodite
@@ -98,13 +102,14 @@ Requirements:
 At this point, the UI should look exactly the same with the inline styling as it was with the CSS files
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_inline_styling
 File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_1/dashboard/src/CourseList/CourseList.js, task_1/dashboard/src/Header/Header.js, task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Notifications/Notifications.js, task_1/dashboard/src/App/App.test.js,task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js, task_1/dashboard/src/CourseList/CourseList.test.js, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/Notifications/Notifications.test.js
-  
-0/12 pts
+   
+12/12 pts
 2. Conditionally applying style
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Modify the NotificationItem component in task_2/dashboard/src/Notifications/NotificationItem.js:
 
 Modify the component to use Aphrodite within the js file
@@ -134,11 +139,11 @@ You can either use conditions or use an array to apply the different styling. Co
 Testing might become difficult with the different variations. Look into the Enzyme documentation for render, contains, prop, and html
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_inline_styling
 File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/CourseList/CourseListRow.js, task_2/dashboard/src/CourseList/CourseListRow.test.js
-  
-0/5 pts
+   
+5/5 pts
 3. Responsive design
 mandatory
 Let’s make the application responsive to the screen size using media queries. We are going to only focus on large screen and screens with a width under 900px
@@ -168,13 +173,14 @@ When the notifications panel is open, the screen should look like the image belo
 
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_inline_styling
 File: task_3/dashboard/src/Login/Login.js, task_3/dashboard/src/Notifications/Notifications.js, task_3/dashboard/src/Notifications/NotificationItem.js
 Please review your task manually with the following checklist
-in task_3/dashboard/src/Login/Login.js, label and an input are on each line
+in task_3/dashboard/src/Notifications/NotificationItem.js, padding for item is 10px 8px
 
-0/9 pts
+ 
+9/9 pts
 4. Animation
 mandatory
 Let’s create an animation that we can display when the user hovers on the Notifications menu or when there is a new notification. In task_4/dashboard/Notifications/Notifications.js:
@@ -195,10 +201,8 @@ When the notifications panel is hovered or opened, the UI should look like the i
 
 Repo:
 
-GitHub repository: arbutuscollege-react-coding
+GitHub repository: arbutuscollege-web_react
 Directory: React_inline_styling
 File: task_4/dashboard/src/Notifications/Notifications.js
 Please review your task manually with the following checklist
-in task_4/dashboard/src/Notifications/Notifications.js, created one object containing the CSS frames to make the opacity change from 0.5 to 1
-
-
+when you view task_4/dashboard/dist/index.html your your browser, the UI looks just like the gif below:
